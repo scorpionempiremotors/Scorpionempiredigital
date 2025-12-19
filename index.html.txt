@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scorpion Empire Digital</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #ffffff;
+      background-color: #000;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      height: 100vh;
+      background:
+        linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+        url("logo-bg.png") center center / cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero-content {
+      max-width: 900px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      color: #d4af37;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #dddddd;
+      margin-bottom: 30px;
+    }
+
+    .cta {
+      display: inline-block;
+      padding: 14px 32px;
+      background: #d4af37;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: #111;
+      border: 1px solid #222;
+      padding: 25px;
+      border-radius: 6px;
+      text-align: center;
+    }
+
+    .card h3 {
+      color: #d4af37;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #cccccc;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 30px 20px;
+      color: #777;
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-content">
+      <h1>Scorpion Empire Digital</h1>
+      <p>
+        Clean, professional websites & digital tools for local businesses.
+        Simple. Mobile-friendly. Built to convert.
+      </p>
+      <a href="#contact" class="cta">Get a Demo</a>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section>
+    <h2>What We Do</h2>
+
+    <div class="services">
+      <div class="card">
+        <h3>Business Websites</h3>
+        <p>
+          Professional websites that help customers find you,
+          trust you, and contact you fast.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Mobile-Friendly Design</h3>
+        <p>
+          Every site works perfectly on phones, tablets,
+          and desktops.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Ongoing Support</h3>
+        <p>
+          Optional monthly plans for hosting, updates,
+          and changes when needed.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p style="text-align:center; color:#ccc; max-width:700px; margin:auto;">
+      Want a quick demo or have questions?<br><br>
+      📩 Message us on Instagram<br>
+      <strong>Scorpion Empire Digital</strong>
+    </p>
+  </section>
+
+  <footer>
+    © 2025 Scorpion Empire Digital. All rights reserved.
+  </footer>
+
+</body>
+</html>
